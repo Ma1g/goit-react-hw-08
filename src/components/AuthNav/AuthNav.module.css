@@ -1,0 +1,23 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.list li {
+  margin-right: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #333333;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}

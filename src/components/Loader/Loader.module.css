@@ -1,0 +1,20 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.react-spinner-loader {
+  height: 80px;
+  width: 80px;
+}
+
+.react-spinner-loader > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
